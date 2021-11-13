@@ -1,0 +1,26 @@
+How to push Local Project Directory in git hub
+First you need to create one repository in github.com site
+I have created Bashscript.git
+# git config - -global user.name “NI3J”
+# git config - - global user.email “ jadhavnitin75@gmail.com”
+
+Step no 1:-  need to enter into directory
+# cd /home/NJ/Shellscripting
+#  git init
+	.git file will be generated in present directory
+# ls –a   list all hidden files
+Step no 2:- add remote repository 
+# git remote add origin ” https://github.com/NI3J/BashScript.git “
+Step no 3:- check remote branches
+# git remote –v
+Step no 4: Add current folder into repository
+# git add .
+Step no 5:  commit the changes
+# git commit –m “my first commit”
+Step no 6:- push the changes on remote repository
+# git push origin master
+Usrename:- NI3J
+Password:- { password  your git token id}
+Above all steps help you to add local folder on newly created repository . go to the Github and check the changes
+
+
